@@ -1,0 +1,14 @@
+.footer {
+  background: $granite-gray;
+  padding: 4.5em;
+  text-align: center;
+
+  &__link {
+    width: 150px;
+    display: inline-block;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

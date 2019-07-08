@@ -1,0 +1,18 @@
+.contact {
+  @extend .prominent;
+
+&__button {
+  background: $white;
+  border-radius: 1.25em;
+  color: $granite-gray;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: $bold;
+  margin: {
+    top: 1em;
+  };
+  padding: .625em 3.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+}

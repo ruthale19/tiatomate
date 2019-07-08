@@ -1,0 +1,15 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+//Imagenes no deben sobrepasar el 100% del ancho
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: .5em;
+}

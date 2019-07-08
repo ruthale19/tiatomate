@@ -1,0 +1,13 @@
+/* Header Layout */
+.header {
+  @extend .container;
+
+  &__link {
+    height: 50px;
+    display: block;
+  }
+
+  &__img {
+    height: 100%;
+  }
+}

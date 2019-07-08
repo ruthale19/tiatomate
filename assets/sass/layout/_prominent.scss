@@ -1,0 +1,31 @@
+.prominent {
+  background-color: $jelly-bean;
+  color: $white;
+  text-align: center;
+  padding: 2em;
+
+  &__title {
+    font-size: 3.5em;
+    font-weight: $bold;
+    margin: 0;
+    text-transform: uppercase;
+
+    &--light {
+      text-transform: none;
+      font-weight: $extra-light;
+      display: block;
+    }
+
+    &--text-default {
+      @extend .prominent__title;
+      text-transform: none;
+      font-size: 2.5em;
+    }
+  }
+
+  
+  &--hero {
+    @extend .prominent;
+    padding: 10em 0;
+  }
+}

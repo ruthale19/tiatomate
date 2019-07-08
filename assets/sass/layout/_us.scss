@@ -1,0 +1,23 @@
+.us {
+  color: $granite-gray;
+
+  &__title {
+    @extend .product__title;
+  }
+
+  &__img {
+    width: 100%;
+
+    &-container {
+      max-width: 350px;
+      margin: {
+        left: auto;
+        right: auto;
+      };
+    }
+  }
+
+  &__text {
+    @extend .product__text;
+  }
+}
